@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(45deg, #cacdcd, #9ca2a2) !important;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: .25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+  border-left: 5px solid #3d4242 !important;
+  border-radius: 10px !important;
+}
+
+.bg-gradient {
+  background: #3d4242;
+  background: -webkit-linear-gradient(45deg, #a3a7a7, #151515) !important;
+  background: linear-gradient(45deg, #a3a7a7, #151515) !important;
+}
+
+.widgets-icons-2 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+  font-size: 27px;
+  border-radius: 10px;
+  border-radius: 50% !important;
+  color: #fff !important;
+  /* margin-left: auto !important; */
+}
+
+.dash-container{
+  position: relative;
+  padding: 1rem;
+  /* transform: scale(0.9);
+  left: 80px; */
 }
