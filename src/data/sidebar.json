@@ -1,0 +1,72 @@
+[
+    {"title": "Add/Edit Marks",
+      "icon": "bi-file-earmark-plus"
+      },
+  {    
+      "title": "Students",
+      "icon": "bi-person-fill",
+      "childrens": [
+          {
+              "title": "Add",
+              
+              "path": "/"
+          },
+          {
+              "title": "Modify",
+              "path": "/about"
+          },
+          {
+              "title": "Delete",
+              "path" : "#"
+              
+          }
+      ]
+  },
+  {
+      "title": "Teachers",
+      "icon": "bi-vector-pen",
+      "childrens": [
+          {
+              "title": "Add",
+              "path": "/login"
+          },
+          {
+              "title": "Manage",
+              "path": "/register"
+          }
+      ]
+  },
+  {
+      "title": "Manage Class",
+      "icon": "bi-person-fill"  
+  },
+  {
+      "title": "Manage Subjects",
+      "icon": "bi-view-list"
+  },
+  {
+      "title": "Manage Exams",
+      "icon": "bi-question-circle-fill",
+      "path": "/support"
+  },
+  {
+      "title": "Manage Subject Class Teacher",
+      "icon": "bi-bug",
+      "path": "/report-bug"
+  },
+   {
+      "title": "Student Marksheet",
+      "icon": "bi-bug",
+      "path": "/report-bug"
+  },
+   {
+      "title": "View Marklist",
+      "icon": "bi-bug",
+      "path": "/report-bug"
+  },
+   {
+      "title": "Print Results",
+      "icon": "bi-bug",
+      "path": "/report-bug"
+  }
+]

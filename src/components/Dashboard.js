@@ -2,10 +2,10 @@ import React from 'react'
 import Card from './Card'
 import '../ham.css';
 
-function Dashboard() {
+function Dashboard({toggleScale}) {
   return (
 
-    <div className="dash-container">
+    <div className={`dash-container ${toggleScale?'dashbordScaleToggle':''}`}>
       <h1 className='dash-head'>Dashboard</h1>
         <div className="cardBox" style={{display:'flex',flexWrap:"wrap",marginLeft:'3rem'}}>
           <Card head={'Classes'} detail={'5'}/>
